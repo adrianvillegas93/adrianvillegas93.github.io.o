@@ -192,6 +192,7 @@ body{
 .knowledge__paragraph{
     line-height: 1.7;
     margin-bottom: 15px;
+    text-align: justify;
 }
 
 .knowledge__img{
@@ -343,6 +344,10 @@ body{
     cursor: pointer;
 }
 
+.testimony__review{
+    text-align: justify;
+}
+
 
 /*Pasamos a questions*/
 
@@ -401,7 +406,7 @@ body{
 }
 
 .questions__show{
-    text-align: left;
+    text-align: justify;
     height: 0;
     transition: height .3;
 }
